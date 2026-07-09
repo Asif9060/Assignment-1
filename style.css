@@ -101,6 +101,11 @@ nav ul li a {
     gap: 32px;
 }
 
+.cards h6{
+    color: #2563EB;
+    font-size: 12px;
+}
+
 img{
     width: 100%;
 }
