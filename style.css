@@ -1,47 +1,106 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
 }
 
-.common-btn{
+.common-btn {
     background-color: #1D4ED8;
     color: white;
     border-radius: 10px;
     border: 0;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* Navbar */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 18px;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
 }
 
-nav ul{
+nav ul {
     display: flex;
     gap: 24px;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: #575757;
 }
 
-.btn1{
+.btn1 {
     padding: 14px 32px;
 
 }
 
 /* Banner */
+
+.banner {
+    /* width: 100%; */
+    height: 92.5vh;
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, 0.95) 0%,
+            rgba(0, 0, 0, 0.60) 35%,
+            rgba(0, 0, 0, 0) 70%,
+            rgba(0, 0, 0, 0) 100%), url('./assets/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-text{
+    color: white;
+    text-align: center;
+}
+
+.banner-text h1{
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.banner-text p{
+    font-size: 24px;
+}
+
+.btn2{
+    padding: 14px 55px;
+}
+
+/* Speaker */
+
+.Speakers{
+    margin-top: 80px;
+}
+
+.Speakers h1{
+    text-align: center;
+    margin-bottom: 56px;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+img{
+    width: 100%;
+}
