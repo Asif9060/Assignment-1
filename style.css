@@ -106,6 +106,31 @@ nav ul li a {
     font-size: 12px;
 }
 
+.card{
+    line-height: 1.8rem;
+    border-radius: 12px;
+    border: 1px solid rgba(165, 164, 164, 0.521);
+}
+
+.card img{
+    border-radius: 12px 0 0 0;
+}
+
+.cards h4{
+    color: #0D1B2A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cards p{
+    color: #575757;
+    font-size: 14px;
+}
+
+.info{
+    padding: 24px;
+}
+
 img{
     width: 100%;
 }
