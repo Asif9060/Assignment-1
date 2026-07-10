@@ -13,6 +13,10 @@
     cursor: pointer;
 }
 
+button{
+    cursor: pointer;
+}
+
 /* Navbar */
 nav {
     display: flex;
@@ -239,6 +243,15 @@ img {
 
 .person {
     color: #888888;
+}
+
+hr{
+    border: 1px solid #E5E7EB;
+    margin-bottom: 22px;
+}
+
+.middle-price-card hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Timeline */
