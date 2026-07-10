@@ -243,6 +243,7 @@ img {
 
 .person {
     color: #888888;
+    font-size: 14px;
 }
 
 hr{
@@ -370,7 +371,7 @@ footer hr{
 }
 
 .footer-bottom p{
-    color: rgba(255,255,255,0.7);
+    color: rgba(255,255,255,0.4);
     font-size: 14px;
 }
 
@@ -381,7 +382,7 @@ footer hr{
 
 .footer-links a{
     text-decoration: none;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255,255,255,0.4);
     font-size: 14px;
     transition: 0.3s;
 }
